@@ -1,6 +1,5 @@
 
 def whitespace(sequence):
-    lst = list(set(sequence.split()))
-    return sorted(lst)
+    return " ".join(sorted(list(set(sequence.split()))))
 
 print(whitespace("hello world and practice makes perfect and hello world again"))
